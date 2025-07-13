@@ -1,10 +1,10 @@
-This guide provides a clear framework for distinguishing between use cases best suited for:
+### This guide provides a clear framework for distinguishing between use cases best suited for:
 
 * Agentic AI systems – powered by LLMs that operate with autonomy, tool access, contextual memory, and adaptive decision-making.
 
 * Traditional automation – deterministic, rule-based workflows designed for fixed logic and minimal decision variability.
 
-It includes scoring rubrics for:
+# It includes scoring rubrics for:
 
 * Autonomy Level
 
@@ -56,47 +56,13 @@ Building agents requires rethinking how your systems make decisions and handle c
 
 Consider the example of payment fraud analysis. A traditional rules engine works like a checklist, flagging transactions based on preset criteria. In contrast, an LLM agent functions more like a seasoned investigator, evaluating context, considering subtle patterns, and identifying suspicious activity even when clear-cut rules aren't violated. This nuanced reasoning capability is exactly what enables agents to manage complex, ambiguous situations effectively.
 
-As you evaluate where agents can add value, prioritize workflows that have previously resisted automation, especially where traditional methods encounter friction:
+## As you evaluate where agents can add value, prioritize workflows that have previously resisted automation, especially where traditional methods encounter friction:
 
-01
+01. Complex decision-making: Workflows involving nuanced judgment, exceptions, or context-sensitive decisions, for example refund approval in customer service workflows.
 
-Complex
+02.  Difficult-to-maintain rules:Systems that have become unwieldy due to extensive and intricate rulesets, making updates costly or error-prone, for example performing vendor security reviews.
 
-decision-making:
-
-02
-
-Difficult-to-maintain
-
-rules:
-
-03
-
-Heavy reliance on
-
-unstructured data:
-
-Workflows involving nuanced judgment, exceptions, or
-
-context-sensitive decisions, for example refund approval
-
-in customer service workflows.
-
-Systems that have become unwieldy due to extensive and
-
-intricate rulesets, making updates costly or error-prone,
-
-for example performing vendor security reviews.
-
-Scenarios that involve interpreting natural language,
-
-extracting meaning from documents, or interacting with
-
-users conversationally, for example processing a home
-
-insurance claim 7
-
-A practical guide to building agents
+03 Heavy reliance on unstructured data:Scenarios that involve interpreting natural language, extracting meaning from documents, or interacting with users conversationally, for example processing a home insurance claim.
 
 Before committing to building an agent, validate that your use case can meet these criteria clearly. Otherwise, a deterministic solution may suffice.
 
